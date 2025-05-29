@@ -1,0 +1,18 @@
+# Activity-01: Recursive Directory Scanner with Python
+
+## 👨‍💻 Overview
+This project is a recursive Python script that scans a directory and its subdirectories for `.txt` files, calculates their sizes, and displays the results in a readable table. The script also includes a command-line enhancement to filter results by a minimum file size (in kilobytes).
+
+There are two main scripts:
+
+- `setup_files.py`: Generates a realistic test directory structure with `.txt` files for testing purposes.
+- `scan.py`: Scans for `.txt` files and displays file size information, with the optional `--min-size` filter.
+
+---
+
+## ✅ Enhancement Implemented: `--min-size`
+This optional argument filters the scan results to show only `.txt` files larger than the specified number of kilobytes.
+
+**Example Usage:**
+```bash
+python3 scan.py test_root --min-size 0.5
